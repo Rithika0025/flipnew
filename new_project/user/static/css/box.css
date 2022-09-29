@@ -1,0 +1,21 @@
+p{
+   
+    width: 100px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+
+    border-width: 4px 6px 8px 10px;
+    border-style: dotted double dashed groove;
+    border-color: brown blue;
+
+    border: 2px dotted violet; 
+    /* margin: auto; 
+    margin-top: 30px;
+    margin-left: 30px;
+    min-height: 10px;
+    max-height: 200px; */
+    /* overflow: scroll; */
+    
+}

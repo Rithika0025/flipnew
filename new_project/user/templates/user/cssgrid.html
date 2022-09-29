@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .divmain{
+    background-color: red;
+    border:1px solid black ;
+    height: 100vh; 
+    display: grid;
+    /* grid-template-columns:200px 100px 200px 200px 100px 100px ; */
+    /* grid-template-columns: auto auto 500px auto; */
+    /* grid-template-columns: 1fr 2fr 3fr; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-rows: repeat(3,2fr); */
+    /* grid-template-rows: 100px 200px; */
+    grid-template-columns: auto auto auto;
+    /* justify-content: space-around;
+    justify-content: center;
+    justify-content: start;
+    justify-content: end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-content: center; */
+    /* align-content: space-around; */
+    /* align-content: end; */
+    /* align-content: space-between; */
+    /* align-content: start; */
+    align-content: space-evenly;
+}
+.divmain div{
+    background-color: aqua;
+    border: 2px solid brown;
+}
+
+.div1{
+    /* grid-column: 1/4; */
+    /* grid-column-start: 2;
+    grid-column-end: 5; */
+    /* grid-row-start: 1;
+    grid-row-end: 4;
+     grid-row: 1/span 2;
+ */
+    /* grid-area: 1/1/ span 3/3; */
+}
+    </style>
+</head>
+<body>
+    <div class="divmain">
+        <div class="div1">One</div>
+        <div class="div2">Two</div>
+        <div class="div3">Three Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo necessitatibus rerum rem voluptates optio soluta.</div>
+        <div class="div4">Four</div>
+        <div class="div5">Five</div>
+        <div class="div6">six</div>
+    </div>
+</body>
+</html>

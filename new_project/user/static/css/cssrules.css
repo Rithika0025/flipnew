@@ -1,0 +1,30 @@
+#p1{
+    font-size: larger;
+    color: green;
+}
+
+p{
+    color: brown !important;
+    display: inline;
+    display: block;
+    visibility: hidden;
+}
+
+/*
+img{
+    opacity:0.5;
+}
+*/
+img:hover{
+    opacity: 0.5;
+}
+
+.div2{
+    background-color: blueviolet;
+    width: 500px;
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */
+    position: relative;
+    left:800px ;
+}

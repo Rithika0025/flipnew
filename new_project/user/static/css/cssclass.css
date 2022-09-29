@@ -1,0 +1,10 @@
+span{
+    color: blue;
+    font-size: larger;
+}
+
+div span{
+    color: inherit;
+    
+}
+
